@@ -28,7 +28,7 @@ function Counter() {
   }
 
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <p>Valor atualizado: {count}</p>
       <button onClick={increment}>Increment Button</button>
       <button onClick={decrement}>Decrement Button</button>
@@ -39,7 +39,7 @@ function Counter() {
 
 export default function MyApp() {
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <h1>Increment/Decrement Counter</h1>
       <Counter />
     </div>

@@ -44,19 +44,19 @@ function MyComponent() {
     //    Se não, mostrar os dados da API
     if (loading) {
         return (
-            <div>
+            <div style={{ textAlign: 'center' }}>
                 <h1>Loading Data...</h1>
             </div>
         )
     }
     return (
-        <div>Data: {JSON.stringify(data)}</div>
+        <div style={{ textAlign: 'center' }}>Data: {JSON.stringify(data)}</div>
     )
 }
 
 export default function MyApp() {
     return (
-        <div>
+        <div style={{ textAlign: 'center' }}>
             <h1>API Return</h1>
             <MyComponent />
         </div>
